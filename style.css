@@ -1,0 +1,539 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  min-height: 900vh;
+  scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgb(7, 186, 203);
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+}
+.navbar-light .navbar-brand{
+  color: rgb(27, 186, 203);
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+}
+
+header{
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("gambaar\ 5.png");
+}
+/* akhir Navbar */
+/* home page */
+.hero {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 10rem;
+  color: white;
+  text-align: left; 
+  font-family: "poppins", sans-serif;
+}
+
+.hero main {
+  margin-left: 2rem; 
+  margin-top: 10rem;  
+}
+
+.hero h4 {
+  margin: 1px ;
+  font-size: 25px; 
+  font-weight: 500;
+
+}
+
+.hero h1 {
+  margin: 1px 0;
+  font-size: 20px; 
+  font-weight: 700;
+}
+
+.hero p {
+  margin: 5px 0;
+  font-size: 15px; 
+  font-weight: 300;
+}
+
+.hero a {
+  margin: 5px 0;
+  font-size: 14px; 
+}
+
+.hero a.btn {
+  margin-top: 10px !important; 
+}
+
+.btn-lg {
+  background-color: rgb(27, 58, 210);
+  color: white;
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-lg:hover {
+  background-color: white;
+  color: rgb(27, 58, 210);
+  border: 1px solid rgb(27, 58, 210);
+}
+/* akhir home page  */
+/* page 1 */
+.container-fluid {
+  padding: 20px;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("github\ 4.webp");
+  
+}
+
+.bg-grey {
+  background-color: #f7f7f7;
+  padding: 30px 0;
+}
+
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  margin-top: 100px; 
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 100px; 
+  text-align: justify; 
+  font-family: "poppins", sans-serif;
+  font-weight: 500px;
+
+}
+/* akhir page 1 */
+/* page 2 */
+.page-2 {
+  padding: 20px; /* Padding di sekitar konten dalam page-2 */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("github\ 3.webp");
+
+}
+
+
+.page-2 h2 {
+  margin-bottom: 10px; 
+}
+
+.page-2 h3 {
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: "poppins", sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+
+.page-2 .logo {
+  margin-bottom: 20px; 
+}
+
+.page-2 p {
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500px;
+}
+/* akhir page 2 */
+/* page 3 */
+.page-3 {
+  padding: 50px; /* Padding di sekitar konten dalam page-2 */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("github\ 1.webp");
+}
+
+.page-3 h3 {
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: "poppins", sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+
+.page-3 .logo {
+  margin-bottom: 20px; 
+}
+
+.page-3 p {
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500px;
+}
+/*akhir  page 3 */
+/* page 4 */
+.page-4 {
+  padding: 50px; /* Padding di sekitar konten dalam page-4 */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("github 5.webp");
+  margin-top: 100px; /* Jarak atas untuk memisahkan dari halaman sebelumnya */
+}
+
+.page-4 h3 {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-family: "poppins", sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+
+.page-4 .logo {
+  margin-bottom: 20px; 
+}
+
+.page-4 p {
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+/*akhir  page 4 */
+/* page 5 */
+.page-5 {
+  padding: 50px; /* Padding di sekitar konten dalam page-4 */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("github 7.webp");
+  margin-top: 100px; /* Jarak atas untuk memisahkan dari halaman sebelumnya */
+}
+
+.page-5 h3 {
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: "poppins", sans-serif;
+  text-align: left;
+  font-weight: 600;
+}
+
+.page-5 .logo {
+  margin-bottom: 20px; 
+}
+
+.page-5 p {
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+/*akhir  page 5 */
+/* daftar sini */
+.rsvp {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-image: url(github\ 6.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rsvp h2 {
+  font-size: 30px;
+  font-family: "poppins", sans-serif;
+  color: rgb(5, 71, 215);
+  font-weight: bold;
+}
+
+.rsvp p {
+  color: rgb(14, 14, 14);
+  font-size: 15px;
+  font-weight: 500px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+
+.rsvp form label {
+  color: rgb(3, 3, 3);
+  text-align: center;
+}
+
+.rsvp button {
+  background-color:rgb(5, 71, 215);
+  color: rgb(255, 255, 255);
+  border: 1px solid var(--pink);
+}
+
+.rsvp button:hover {
+  background-color:rgb(18, 161, 5);
+  color: var(--pink);
+  border: 1px solid white;
+}
+
+/* disqus */
+#disqus_thread {
+  font-family: "poppins", sans-serif; 
+  font-size: 16px; 
+  color: #0a5ce0; 
+}
+
+#disqus_thread .comment .comment-header .comment-author {
+  font-family: "poppins", sans-serif; 
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#disqus_thread .comment .comment-body .comment-message {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  color:  #0a5ce0;
+}
+/* Akhir Disqus */
+/* contact */
+.contact-section {
+  min-height: 100vh;
+  background-image: url(github\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+#contact .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-option {
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.contact-option:hover {
+  transform: translateY(-5px);
+}
+
+.contact-option p {
+  margin-bottom: 10px;
+}
+
+.contact-option a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.contact-option a:hover {
+  background-color: #0056b3;
+}
+/* Akhirncontact */
+/* footer */
+.footer {
+  background-color: #042F62;
+  color: rgb(0, 0, 0); 
+  padding: 20px 0; 
+  text-align: center; 
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.footer-logo img {
+  width: 150px; 
+  height: auto; 
+  max-width: 100%; 
+}
+
+.footer-logo h3 {
+  margin-top: 10px; 
+  font-size: 18px; 
+  color: #000000; 
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.social-media {
+  margin-top: 15px; 
+}
+
+.social-media a {
+  margin: 0 10px; 
+  color: #fff; 
+  font-size: 24px; 
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px 0; 
+}
+
+.footer-bottom p {
+  color: #228dff; 
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  margin: 0; 
+}
+/* Akhir footer */
+
+
+
+/*media Query*/
+@media (max-width: 576px) {
+  .hero main {
+      margin-top: 15rem; 
+      padding: 0 1rem; 
+  }
+}
+
+@media only screen and (max-width:600px){
+  header{
+      background-position: center;
+  }
+
+  .navbar-light .navbar-nav .nav-link{
+    color: rgb(7, 186, 203);
+    font-size: 20px;
+  }
+  .navbar-light .navbar-brand{
+    color: rgb(27, 186, 203);
+    font-size: 20px;
+  }
+
+  
+}
+
+/* Media Query Max tablet/hp */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem; 
+    text-align: left;
+
+  }
+  .hero main {
+    margin-left: 0;
+    margin-top: 15rem; 
+    align-items: flex-start;
+  }
+
+  #about .about-image {
+    justify-content: center; 
+    padding-right: 0; 
+  }
+
+  #about .about-image img {
+    width: 250px; 
+  }
+
+}
+
+@media (max-width: 991.98px) { 
+  .order-lg-1 {
+    order: 2; 
+  }
+  .order-lg-2 {
+    order: 1; 
+  }
+}
+
+@media (min-width: 992px) { 
+  .order-lg-1 {
+    order: 1; /
+  }
+  .order-lg-2 {
+    order: 2; 
+  }
+
+  .page-2 .row {
+    margin-top: 10px; 
+    
+}
+
+.page-2 .logo {
+    margin-bottom: 0; 
+}
+
+.page-2 h3 {
+  margin-top: 65px;
+}
+
+.page-2 p {
+    margin-top: 0; 
+}
+}
+
+@media (max-width: 767px) {
+  .page-2 h3 {
+      text-align: center; 
+  }
+
+  .page-3 h3 {
+    text-align: center; 
+}
+
+.page-4 h3 {
+  text-align: center; 
+}
+
+.page-5 h3 {
+  text-align: center; 
+}
+}
